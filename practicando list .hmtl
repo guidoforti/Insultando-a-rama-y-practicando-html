@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Hola esto es para practictar list
+  </title>
+</head>
+<body>
+  <h3> Unorder list  para rama</h3>
+  <div>
+
+    Una lista donde ordenaremos  las deficiencias de rama sin ordenaremos
+  <ul>
+  <li>su actitud </li>
+  <li>  su apariencia</li>
+  <li>  su aliento </li>
+  <li> su cuerpe, que es:
+      <ul>
+      <li>gordo</li>
+      <li>pelado</li>
+      <li>petiso</li>
+      <li>cara feico</li>
+    </ul>
+      </li>
+      <li> sus pezones </li>
+    </ul>
+  </div>
+<div>
+<h3> Order list para rama </h3>
+  esta es una lista ordenada en donde numerare las cosas que le haria si lo tuviese en frente, paso a paso
+<ol>
+<li>lo escupo</li>
+<li>le pego</li>
+<li>lo amordazo, para eso necesito</li>
+  <ul>
+<li>sogas</li>
+<li>trapo </li>
+<li>silla </li>
+</ul>
+ <li>le doy un besito por si se siente ofendido</li>
+</ol>
+</div>
+
+
+</body>
+</hmtl>
