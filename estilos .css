@@ -1,0 +1,34 @@
+<style>
+
+h1 { text-align: center;
+color: darkblue;
+font-size: 70px;
+font-weight:bolder;
+font-family:monospace;
+background-color: lightblue;
+}
+h2{ background-color: white;
+  text-align: center;
+  font-size: 40px;
+  color: darkblue;
+  font-family: monospace;
+}
+h3 { text-align: inherit;
+  color: white;
+  text-decoration: underline;
+  font-family: fantasy;
+  font-size: 30px;
+
+#parrafosolo {
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  text-decoration:overline underline;
+  color: orange;
+  font-weight: bolder;
+}
+
+#imagen2{padding-left:1400px;
+}
+
+</style>
