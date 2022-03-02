@@ -4,6 +4,11 @@ body{
 background-color: black ;
 color:white
 }
+
+*{
+  box-sizing: border-box;
+}
+
 h1 { text-align: center;
 color: darkblue;
 font-size: 70px;
@@ -11,6 +16,7 @@ font-weight:bolder;
 font-family:monospace;
 background-color: lightblue;
 }
+
 h2{ background-color: white;
   font-size: 40px;
   color: darkblue;
@@ -21,20 +27,22 @@ h2{ background-color: white;
   border: 5px solid DarkOrange;
   border-radius: 10px;
 }
+
 h3 { text-align: inherit;
   color: white;
   text-decoration: underline;
   font-family: fantasy;
   font-size: 30px;
 }
+
 article{
   text-align: center;
   font-size: 20px;
   color:#00FFFF;
   font-weight: lighter;
   font-family: fantasy;
-
 }
+
 li{
   font-size: 18px;
   color: #FFB6C1;
@@ -51,8 +59,6 @@ li{
   font-weight: bolder;
 }
 
-#imagen2{padding-left:1400px;
-}
 #caja {
   background-color: green;
   padding:10px 10px 10px 10px;
@@ -60,13 +66,36 @@ li{
   border-radius: 5px;
   margin: 50px 300px 0px 800px;
   width: 300px;
-  box-sizing: border-box;
 }
+
 #contenidodecaja{
   color:black;
   background-color: white;
   text-align: center;
+}
 
+#caja2 {
+ background-color: DarkOrange;
+ padding: 10px 20px 10px 20px;
+ border: 8px solid darkblue;
+ border-radius: 5px;
+ margin: 50px 300px 0px 700px;
+ width: 500px;
+ height: 100px;
+ overflow:auto;
+
+
+}
+
+#contenidodecaja2 {
+  background-color: lightblue;
+  color: black;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  border: 5px solid darkblue;
+  border-radius: 5px;
+  text-align: center;
 }
 
 
@@ -74,10 +103,11 @@ div > ul.ul1 {
   position: relative;
   left:800px;
 }
+
 div > ul.ul1 {
   list-style: none;
-
 }
+
 div > ul.ul1 >li > a:link, div > ul.ul1 > li > a:visited {
   text-decoration: none;
   color:black;
@@ -91,8 +121,8 @@ div > ul.ul1 >li > a:link, div > ul.ul1 > li > a:visited {
   font-weight: bolder;
   font-size: 30px;
   font-family:monospace;
-
 }
+
 div > ul.ul1 > li > a:hover, div > ul.ul1 > li > a:active {
   background-color: blue;
   color: white;
