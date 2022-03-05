@@ -34,71 +34,6 @@ h3 { text-align: inherit;
   font-family: fantasy;
   font-size: 30px;
 }
-
-article{
-  text-align: center;
-  font-size: 20px;
-  color:#00FFFF;
-  font-weight: lighter;
-  font-family: fantasy;
-}
-
-li{
-  font-size: 18px;
-  color: #FFB6C1;
-  font-weight: bold;
-  font-family: arial black;
-}
-
-#parrafosolo {
-  text-align: center;
-  font-size: 30px;
-  font-family: cursive;
-  text-decoration:overline underline;
-  color: orange;
-  font-weight: bolder;
-}
-
-#caja {
-  background-color: green;
-  padding:10px 10px 10px 10px;
-  border:3px solid red;
-  border-radius: 5px;
-  margin: 50px 300px 0px 800px;
-  width: 300px;
-}
-
-#contenidodecaja{
-  color:black;
-  background-color: white;
-  text-align: center;
-}
-
-#caja2 {
- background-color: DarkOrange;
- padding: 10px 20px 10px 20px;
- border: 8px solid darkblue;
- border-radius: 5px;
- margin: 50px 300px 0px 700px;
- width: 500px;
- height: 100px;
- overflow:auto;
-
-
-}
-
-#contenidodecaja2 {
-  background-color: lightblue;
-  color: black;
-  font-family: cursive;
-  font-style: italic;
-  font-weight: bold;
-  border: 5px solid darkblue;
-  border-radius: 5px;
-  text-align: center;
-}
-
-
 div > ul.ul1 {
   position: relative;
   left:800px;
@@ -127,4 +62,92 @@ div > ul.ul1 > li > a:hover, div > ul.ul1 > li > a:active {
   background-color: blue;
   color: white;
   transition: background-color 1s;
+}
+
+article{
+  text-align: center;
+  font-size: 20px;
+  color:#00FFFF;
+  font-weight: lighter;
+  font-family: fantasy;
+}
+
+li{
+  font-size: 18px;
+  color: #FFB6C1;
+  font-weight: bold;
+  font-family: arial black;
+}
+
+#parrafosolo {
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  text-decoration:overline underline;
+  color: orange;
+  font-weight: bolder;
+}
+
+#caja {
+  background-color:blue;
+  padding:10px 10px 10px 10px;
+  border:3px solid red;
+  border-radius: 5px;
+  margin: 50px 300px 0px 800px;
+  width: 300px;
+}
+
+#contenidodecaja{
+  color:black;
+  background-color: lightblue;
+  text-align: center;
+  font-weight: bold;
+}
+
+#caja2 {
+ background-color: DarkOrange;
+ padding: 10px 20px 10px 20px;
+ border: 8px solid darkblue;
+ border-radius: 5px;
+ margin: 50px 300px 0px 700px;
+ width: 500px;
+ height: 100px;
+ overflow:auto;
+
+
+}
+
+#contenidodecaja2 {
+  background-color: lightblue;
+  color: black;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  border: 5px solid darkblue;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+#backgroundcaja{
+  background-color: lightblue;
+  padding: 10px;
+  border: 5px solid Darkblue;
+  border-radius: 10px;
+  width: 250px;
+  height: 400px;
+  overflow: auto;
+  margin: 0px 0px 0px 800px;
+
+}
+#backgroundimage
+{
+  border: 5px solid darkblue;
+  border-radius: 5px;
+margin: 10px;
+  width: 200px;
+  height: 350px;
+background: url("rama1.png") no-repeat center
+/* ACA ERA LO MISMO PONER backgroundimage backgroundrepeat backgroundposition */
+
 }
