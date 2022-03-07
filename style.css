@@ -1,8 +1,7 @@
 body{
-  margin: 0px;
-  padding: 0px;
-background-color: black ;
-color:white
+
+background-color: #FFE4C4;
+color: black;
 }
 
 *{
@@ -35,8 +34,9 @@ h3 { text-align: inherit;
   font-size: 30px;
 }
 div > ul.ul1 {
-  position: relative;
-  left:800px;
+  float: right;
+
+  /* OTRA FORMA TAMBIEN ERA HACER LO DE POSITION -- RELATIVE Y PONER LOS PX QUE PARECIAN. */
 }
 
 div > ul.ul1 {
